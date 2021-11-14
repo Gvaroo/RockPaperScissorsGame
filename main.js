@@ -14,8 +14,8 @@ options.forEach(option => {
 })
 
 function updateMoves(pInput, cInput) {
-  document.getElementById("p-move").src = `assets/${pInput}.svg`;
-  document.getElementById("c-move").src = `assets/${cInput}.svg`;
+  document.getElementById("p-move").src = `./${pInput}.svg`;
+  document.getElementById("c-move").src = `./${cInput}.svg`;
 }
 
 function compareInputs(pInput, cInput) {
